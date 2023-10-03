@@ -1,0 +1,87 @@
+*{
+    margin: 0;padding: 0;
+    font-family: fantasy;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    background-color: rgb(63, 147, 231);
+    gap: 10vw;
+  }
+  a{
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      text-transform: uppercase;
+      font-size: 20px;
+      border: 5px;
+      font-family:cursive;
+    }
+    .nav {
+        text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #aeffc5;
+      height: 50px;
+      width: 100px;
+      
+       text-transform: none;
+      border: 1px solid black;
+      border-radius: 100px;
+    }
+    body{
+        background-color: #445D48;
+    }
+    .bmi-cal{
+      display: flex;
+      background-color: #aeffc5;
+      flex-direction: column;
+    }
+    .mid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+      color:#FDE5D4;
+      font-size: large;
+      height: 100px;
+    }
+    .mid p{
+      font-size: 30px;
+      color: #FACBEA;
+    }
+    .bmi-cal div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+
+    }
+    #weight #height{
+      margin: 10px;
+    }
+    label{
+      margin: 10px;
+    }
+    .button{
+      width: 90px;
+      height: 40px;
+      /* background-color: beige; */
+      font-size: 16px;
+      background-color: #6499E9;
+      color: white;
+    }
+    .gyan{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: azure;
+      background-color: #79AC78;
+      /* padding-top: 25px; */
+      height: 150px;
+    }
